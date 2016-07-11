@@ -1,0 +1,16 @@
+<!ELEMENT root (property+,lists,dayType)>
+<!ATTLIST property id ID #REQUIRED>
+<!ATTLIST property value CDATA #REQUIRED>
+
+<!ELEMENT dayType (property*,typeRedirect?)>
+<!ATTLIST property id ID #REQUIRED>
+<!ATTLIST property value CDATA #REQUIRED>
+
+<!ELEMENT typeRedirect (property*)>
+<!ATTLIST property id ID #REQUIRED>
+
+<!ELEMENT lists (list+)>
+<!ATTLIST list file CDATA #REQUIRED>
+<!ATTLIST list startCursor CDATA #REQUIRED>
+<!ATTLIST list type CDATA #REQUIRED>
+<!ATTLIST list person CDATA #REQUIRED>

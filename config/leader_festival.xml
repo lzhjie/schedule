@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE root SYSTEM "personList.dtd">
+<root>
+	<person name="钟军" 	telephone="12345678901"/>
+	<person name="钟军" 	telephone="12345678901"/>
+	<person name="钟军" 	telephone="12345678901"/>
+	<person name="傅小华" telephone="12345678901"/>
+	<person name="傅小华" telephone="12345678901"/>
+	<person name="傅小华" telephone="12345678901"/>
+	<person name="陈志" 	telephone="12345678901"/>
+	<person name="陈志" 	telephone="12345678901"/>
+	<person name="陈志" 	telephone="12345678901"/>
+</root>

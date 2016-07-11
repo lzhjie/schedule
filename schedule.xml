@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312" standalone="no"?><!DOCTYPE root SYSTEM "schedule.dtd">
+<root>
+	<property id="date" value="2016-6"/>
+	<dayType>
+		<!-- property.value: 1->7 MON->SUN  defaultType:workingDay-->
+		<property id="workingDay" value="1,2,3,4,5"/>
+		<property id="freeDay"    value="6,7"/>
+		<property id="festival"   value=""/>
+		<typeRedirect>
+			<property id="2016-6" festival="9,10,11" workingDay="12" freeDay=""/>
+			<property id="2016-9" festival="15,16,17" workingDay="18" freeDay=""/>
+		</typeRedirect>
+	</dayType>
+	<!-- property id="formatter" value="%Date%LeaderName%LeaderTel%EmployeeName%DriverName%DriverTel"/-->
+	<lists>
+		<!-- type: dayType.property.id-->
+		<list file="./config/leader.xml" person="1" startCursor="傅小华" type="workingDay"/>
+		<list file="./config/leader.xml" person="1" startCursor="钟军" type="freeDay"/>
+		<list file="./config/leader_festival.xml" person="1" startCursor="钟军" type="festival"/>
+		<list file="./config/employee.xml" person="3" startCursor="臧金涛" type="workingDay"/>
+		<list file="./config/employee.xml" person="4" startCursor="游晓均" type="freeDay, festival"/>
+		<list file="./config/driver.xml" person="1" startCursor="李贵川" type="workingDay, freeDay"/>
+		<list file="./config/driver_festival.xml" person="1" startCursor="贺明朗" type="festival"/>
+	</lists>
+</root>

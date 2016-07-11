@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="GB2312"?>
+<!DOCTYPE root SYSTEM "personList.dtd">
+<root>
+	<person name="贺明朗" telephone="12345678901"/>
+	<person name="贺明朗" telephone="12345678901"/>
+	<person name="贺明朗" telephone="12345678901"/>
+	
+	<person name="杨特伟" telephone="12345678901"/>
+	<person name="杨特伟" telephone="12345678901"/>
+	<person name="杨特伟" telephone="12345678901"/>
+	
+	<person name="魏东" 	telephone="12345678901"/>
+	<person name="魏东" 	telephone="12345678901"/>
+	<person name="魏东" 	telephone="12345678901"/>
+	
+	<person name="左兵" 	telephone="12345678901"/>
+	<person name="左兵" 	telephone="12345678901"/>
+	<person name="左兵" 	telephone="12345678901"/>
+	
+	<person name="李贵川" telephone="12345678901"/>
+	<person name="李贵川" telephone="12345678901"/>
+	<person name="李贵川" telephone="12345678901"/>
+
+</root>

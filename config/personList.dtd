@@ -1,0 +1,3 @@
+<!ELEMENT root (person+)>
+<!ATTLIST property name CDATA #REQUIRED>
+<!ATTLIST list telephone CDATA #IMPLIED>
